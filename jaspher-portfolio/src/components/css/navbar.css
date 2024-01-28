@@ -25,3 +25,7 @@ html, body {
     --text-color-dark: #000;
     --font-family: 'Inter', sans-serif;
 }
+
+.navbar-toggler {
+    border: none
+}
