@@ -3,10 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg px-4 py-1 bg-dark">
+      <nav className="navbar navbar-expand-lg px-md-4 px-sm-4 px-2 py-1 bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand fs-2 fw-bolder text-white" href="#">Jaspher.</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
