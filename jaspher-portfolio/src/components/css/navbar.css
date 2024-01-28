@@ -29,3 +29,7 @@ html, body {
 .navbar-toggler {
     border: none
 }
+
+.navbar-toggler-icon {
+    color:var(--text-color-light)
+}
