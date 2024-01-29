@@ -33,3 +33,7 @@ html, body {
 .navbar-toggler-icon {
     color:var(--text-color-light)
 }
+
+.navlink:hover {
+    color: var(--primary-color) !important
+}
