@@ -25,6 +25,9 @@ html, body {
     --text-color-dark: #000;
     --font-family: 'Inter', sans-serif;
 }
+.navbar {
+    background:var(--navbar-bg)
+}
 
 .navbar-toggler {
     border: none
