@@ -18,6 +18,11 @@ const Home = () => {
               </div>
           </div>
         </section>
+        <section className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5">
+          <div className="row">
+              <h2 className="fw-bolder text-center">This is an about section</h2>
+          </div>
+        </section>
     </>
   )
 }
