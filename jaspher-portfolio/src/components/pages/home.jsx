@@ -9,8 +9,7 @@ const Home = () => {
                 <div className="container">
                   <h3>Hello! </h3>
                   <h1 className="fw-bolder display-3">I'm <span className="text-warning">Jaspher Bagor</span></h1>
-                  <h1 className="display-3 fw-bolder">FULL-STACK</h1>
-                  <h1 className="display-3 fw-bolder">WEB DEVELOPER</h1>
+                  <h4 className="fw-bolder my-4">A Full-Stack Web Developer</h4>
                   <button className="btn btn-warning fw-semibold px-2 py-3 hero-btn">Contact Me</button>
                 </div>
               </div>
