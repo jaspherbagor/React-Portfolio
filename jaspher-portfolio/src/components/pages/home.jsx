@@ -7,7 +7,8 @@ const Home = () => {
           <div className="row">
               <div className="col-md-6 d-flex justify-content-end align-items-center">
                 <div className="container">
-                  <h3>Hello, I'm Jaspher Bagor</h3>
+                  <h3>Hello! </h3>
+                  <h1 className="fw-bolder display-3">I'm <span className="text-warning">Jaspher Bagor</span></h1>
                   <h1 className="display-3 fw-bolder">FULL-STACK</h1>
                   <h1 className="display-3 fw-bolder">WEB DEVELOPER</h1>
                   <button className="btn btn-warning fw-semibold px-2 py-3 hero-btn">Contact Me</button>
