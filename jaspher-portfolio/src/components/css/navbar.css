@@ -37,6 +37,6 @@ html, body {
     color:var(--text-color-light)
 }
 
-.navbar-brand, .nav-link:hover {
+.navbar-brand span, .nav-link:hover {
     color: var(--primary-color) !important
 }

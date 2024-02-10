@@ -5,7 +5,7 @@ const Home = () => {
     <>
         <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
           <div className="row">
-              <div className="col-md-6 d-flex justify-content-end align-items-center">
+              <div className="col-md-6 d-flex justify-content-center align-items-center">
                 <div className="container">
                   <h3>Hello! </h3>
                   <h1 className="fw-bolder display-3">I'm <span className="text-warning">Jaspher Bagor</span></h1>
