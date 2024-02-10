@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <div className="col-md-6">
               <h4 className="mt-5">I am a Philippine-based full-stack web developer with a strong passion for creating dynamic and user-friendly applications.</h4>
-              <h5>My journey into web development started [mention a brief story]. I specialize in [mention technologies or languages], always eager to learn and adapt to new challenges.
+              <h5>My journey into web development started when I enrolled at KodeGo Full-Stack Web Development on August 30, 2023 and graduated at January 30, 2024. I specialize in HTML, CSS, JavaScript, Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to learn and adapt to new challenges.
 </h5>
             </div>
           </div>
