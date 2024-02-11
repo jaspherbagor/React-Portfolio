@@ -34,6 +34,7 @@ html, body {
 .hero-btn {
     background: var(--navbar-bg);
     border: 2px solid var(--primary-color);
+    border-radius: 10px;
     color:var(--text-color-light)
 }
 
