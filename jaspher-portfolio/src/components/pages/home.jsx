@@ -111,8 +111,7 @@ const Home = () => {
               <div class="card-body">
                 <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Sample Card text
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" class="btn btn-primary me-4">
