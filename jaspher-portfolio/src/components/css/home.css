@@ -49,3 +49,8 @@ html, body {
     border-radius: 50%;
     border: 2px solid var(--primary-color)
 }
+
+.about-description {
+    line-height: 35px;
+    letter-spacing: 1.5px;
+}

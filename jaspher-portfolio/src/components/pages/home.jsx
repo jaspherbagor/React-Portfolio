@@ -20,13 +20,13 @@ const Home = () => {
           </div>
         </section>
         <section className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5">
-            <h2 className="fw-bolder text-center">ABOUT ME</h2>
+            <h2 className="fw-bolder text-center mb-5">ABOUT ME</h2>
             <div className="container d-flex justify-content-center align-items-center">
-              <img src="../images/about-img.jpg" alt="" className="img-fluid about-img" />
+              <img src="../images/about-img.jpg" alt="profile-image" className="img-fluid about-img" />
             </div>
             <div className="container">
-              <h4 className="mt-5">I am a Philippine-based full-stack web developer with a strong passion for creating dynamic and user-friendly applications.</h4>
-              <h5>My journey into web development started when I enrolled at KodeGo Full-Stack Web Development on August 30, 2023 and graduated at January 30, 2024. I specialize in HTML, CSS, JavaScript, Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to learn and adapt to new challenges.</h5>
+              <h3 className="mt-5 text-center about-description">I am a Philippine-based full-stack web developer with a <span>strong passion for creating dynamic and user-friendly applications.</span></h3>
+              <h4 className="text-center mt-4 about-description">My journey into web development started when I enrolled at KodeGo Full-Stack Web Development Bootcamp on August 30, 2023 and graduated in January 30, 2024. I specialize in HTML, CSS, JavaScript, Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to learn and adapt to new challenges.</h4>
             </div>
         </section>
     </>
