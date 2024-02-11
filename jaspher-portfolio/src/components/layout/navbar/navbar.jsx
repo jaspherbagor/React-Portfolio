@@ -3,7 +3,7 @@ import '../../css/navbar.css';
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg px-md-4 px-sm-4 px-2 py-1">
+      <nav className="navbar navbar-expand-lg px-md-4 px-sm-4 px-2 py-1 position-fixed container-fluid">
         <div className="container-fluid">
           <a className="navbar-brand fs-2 fw-bolder text-white" href="/">PORT<span>FOLIO</span></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@ const Navbar = () => {
                 <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item me-3 fw-semibold fs-5">
-                <a className="nav-link text-white" href="#">About</a>
+                <a className="nav-link text-white" href="#aboutMe">About</a>
               </li>
               <li className="nav-item me-3 fw-semibold fs-5">
                 <a className="nav-link text-white" href="#">Portfolio</a>

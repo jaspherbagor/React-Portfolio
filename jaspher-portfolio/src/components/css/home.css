@@ -55,6 +55,6 @@ html, body {
     letter-spacing: 1.5px;
 }
 
-h3 span {
+h3 span, h2 span {
     color: var(--primary-color)
 }
