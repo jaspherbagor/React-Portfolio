@@ -43,3 +43,9 @@ html, body {
     border: 2px solid var(--primary-color);
     color:var(--text-color-light)
 }
+
+.about-img {
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color)
+}
