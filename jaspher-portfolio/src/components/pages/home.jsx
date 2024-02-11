@@ -20,17 +20,14 @@ const Home = () => {
           </div>
         </section>
         <section className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5">
-          <div className="row">
             <h2 className="fw-bolder text-center">ABOUT ME</h2>
-            <div className="col-md-6 d-flex justify-content-center align-items-center">
-              <img src="" alt="" />
+            <div className="container d-flex justify-content-center align-items-center">
+              <img src="../images/about-img.jpg" alt="" className="img-fluid about-img" />
             </div>
-            <div className="col-md-6">
+            <div className="container">
               <h4 className="mt-5">I am a Philippine-based full-stack web developer with a strong passion for creating dynamic and user-friendly applications.</h4>
-              <h5>My journey into web development started when I enrolled at KodeGo Full-Stack Web Development on August 30, 2023 and graduated at January 30, 2024. I specialize in HTML, CSS, JavaScript, Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to learn and adapt to new challenges.
-</h5>
+              <h5>My journey into web development started when I enrolled at KodeGo Full-Stack Web Development on August 30, 2023 and graduated at January 30, 2024. I specialize in HTML, CSS, JavaScript, Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to learn and adapt to new challenges.</h5>
             </div>
-          </div>
         </section>
     </>
   )
