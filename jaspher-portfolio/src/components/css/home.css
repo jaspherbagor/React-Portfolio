@@ -45,7 +45,7 @@ html, body {
 }
 
 .about-img {
-    height: 400px;
+    height: 300px;
     border-radius: 50%;
     border: 2px solid var(--primary-color)
 }
@@ -53,4 +53,8 @@ html, body {
 .about-description {
     line-height: 35px;
     letter-spacing: 1.5px;
+}
+
+h3 span {
+    color: var(--primary-color)
 }
