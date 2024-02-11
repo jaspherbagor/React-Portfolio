@@ -69,7 +69,7 @@ const Home = () => {
             <div class="card">
               <img src="../images/kinabuhing-turnero.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
+                <h5 class="card-title text-center">Kinabuhing Turnero</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -89,7 +89,7 @@ const Home = () => {
             <div class="card">
               <img src="../images/spark-source-central.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
+                <h5 class="card-title text-center">SparkSource Central</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -109,7 +109,7 @@ const Home = () => {
             <div class="card">
               <img src="../images/splenr.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
+                <h5 class="card-title text-center">Splenr</h5>
                 <p class="card-text">
                   Sample Card text
                 </p>
