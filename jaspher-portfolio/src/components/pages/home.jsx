@@ -67,7 +67,7 @@ const Home = () => {
         <div className="row mt-5">
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div class="card">
-              <img src="..." class="card-img-top img-fluid" alt="..." />
+              <img src="../images/kinabuhing-turnero.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
                 <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text">
@@ -87,7 +87,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div class="card">
-              <img src="..." class="card-img-top img-fluid" alt="..." />
+              <img src="../images/spark-source-central.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
                 <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text">
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div class="card">
-              <img src="..." class="card-img-top img-fluid" alt="..." />
+              <img src="../images/splenr.png" class="card-img-top img-fluid" alt="..." />
               <div class="card-body">
                 <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text">
