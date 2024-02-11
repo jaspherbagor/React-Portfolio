@@ -33,7 +33,7 @@ const Home = () => {
         className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 bg-secondary"
         id="about"
       >
-        <h2 className="fw-bolder text-white text-center mb-5">
+        <h2 className="fw-bolder text-white text-center my-5">
           <span>ABOUT</span> ME
         </h2>
         <div className="container d-flex justify-content-center align-items-center">
