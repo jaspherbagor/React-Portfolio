@@ -141,10 +141,10 @@ const Home = () => {
                 </a>
               </p>
               <div className="d-flex align-items-center justify-content-start mt-5">
-                <a href="" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a href="https://www.facebook.com/jas.bagor/" target="_blank" className="text-decoration-none text-black social-icon me-4">
                   <i class="bi bi-facebook fs-2"></i>
                 </a>
-                <a href="" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a href="https://github.com/jaspherbagor" target="_blank" className="text-decoration-none text-black social-icon me-4">
                   <i class="bi bi-github fs-2"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/jaspher-bagor-56274326a/" target="_blank" className="text-decoration-none text-black social-icon me-4">
