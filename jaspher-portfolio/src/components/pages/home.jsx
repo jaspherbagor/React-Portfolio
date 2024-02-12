@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/home.css";
 const Home = () => {
+
   return (
     <>
       <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
@@ -127,9 +128,24 @@ const Home = () => {
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
         <h2 className="text-center fw-bolder my-5"><span>CONTACT</span> ME</h2>
         <div className="row">
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
+          <div className="col-md-6">
             <div className="container">
+              <p className="text-start">
+                <a href="mailto:jaspherbagor0357@gmail.com" target="_blank" className="text-decoration-none text-black">
+                  jaspherbagor0357@gmail.com
+                </a>
+              </p>
+              <p className="text-start"> 
+                <a href="tel:09169675327" target="_blank" className="text-decoration-none text-black">
+                  0916-967-5327
+                </a>
+              </p>
+              <div className="d-flex align-items-center justify-content-center">
+                <a href="" target="_blank" className="text-decoration-none text-white">
 
+                </a>
+                
+              </div>
             </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center">
