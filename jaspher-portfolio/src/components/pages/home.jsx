@@ -166,7 +166,7 @@ const Home = () => {
               <form>
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
-                  <input type="email" name="name" class="form-control" id="name" />
+                  <input type="text" name="name" class="form-control" id="name" />
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
