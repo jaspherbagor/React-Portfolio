@@ -109,7 +109,7 @@ const Home = () => {
               <div class="card-body">
                 <h5 class="card-title text-center">Splenr</h5>
                 <p class="card-text">
-                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp
+                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp. This is an electrician job platform that enables the job seekers to apply a job and employers to subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" class="btn btn-primary me-4">
