@@ -132,12 +132,12 @@ const Home = () => {
             <div className="container">
               <p className="text-start">
                 <a href="mailto:jaspherbagor0357@gmail.com" target="_blank" className="text-decoration-none text-black">
-                  jaspherbagor0357@gmail.com
+                  <i class="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
               </p>
               <p className="text-start"> 
                 <a href="tel:09169675327" target="_blank" className="text-decoration-none text-black">
-                  0916-967-5327
+                  <i class="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
               </p>
               <div className="d-flex align-items-center justify-content-center">
