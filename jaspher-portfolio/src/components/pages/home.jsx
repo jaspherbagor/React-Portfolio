@@ -2,55 +2,65 @@ import React from "react";
 import "../css/home.css";
 import { useState } from "react";
 const Home = () => {
-  const [users, setUser] = useState(
-    {
-      Name: '', Email: '', Message: ''
-    }
-  )
-  
-  let name, value
-  
-  const url = 'https://portfolio-contact-3d35c-default-rtdb.firebaseio.com/Message.json';
+  const [users, setUser] = useState({
+    Name: "",
+    Email: "",
+    Message: "",
+  });
 
-  const data = (e) => 
-  {
+  let name, value;
+
+  const url =
+    "https://portfolio-contact-3d35c-default-rtdb.firebaseio.com/Message.json";
+
+  const data = (e) => {
     name = e.target.name;
     value = e.target.value;
-    setUser({...users, [name]: value})
-  }
+    setUser({ ...users, [name]: value });
+  };
 
   const [submitted, setSubmitted] = useState(false);
 
-  const sendData = async (e) =>
-  {
-      const{Name, Email, Message} = users
-      e.preventDefault();
+  const sendData = async (e) => {
+    e.preventDefault();
+  
+    if (!users.Name || !users.Email || !users.Message) {
+      alert("No data inputted!");
+    } else {
+      const { Name, Email, Message } = users;
       const options = {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            Name: users.Name,
-            Email: users.Email,
-            Message: users.Message
-          })
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          Name: users.Name,
+          Email: users.Email,
+          Message: users.Message,
+        }),
+      };
+  
+      try {
+        const res = await fetch(url, options);
+        console.log(res);
+  
+        if (res.ok) {
+          setUser({
+            Name: "",
+            Email: "",
+            Message: "",
+          });
+          alert("Your Message Have Been Sent");
+          setSubmitted(true);
+        } else {
+          alert("An Error Occurred");
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        alert("An error occurred while sending the message.");
       }
-      const res = await fetch(url, options)
-      console.log(res)
-      if (res) {
-        setUser({
-          Name: '',
-          Email: '',
-          Message: ''
-        })
-        alert("Your Message Have Been Sent");
-        setSubmitted(true);
-      }
-      else {
-          alert("An Error Ocurred")
-      }
-  }
+    }
+  };
 
   return (
     <>
@@ -118,11 +128,18 @@ const Home = () => {
         <div className="row mt-5">
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/kinabuhing-turnero.png" className="card-img-top img-fluid" alt="..." />
+              <img
+                src="../images/kinabuhing-turnero.png"
+                className="card-img-top img-fluid"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title text-center">Kinabuhing Turnero</h5>
                 <p className="card-text">
-                  Kinabuhing Turnero is my Mini-Project 1 for KodeGo's Full-Stack Web Development Bootcamp. This is a multi-page responsive website for a machine shop that offers services such as metal fabrication, welding, machining and more.
+                  Kinabuhing Turnero is my Mini-Project 1 for KodeGo's
+                  Full-Stack Web Development Bootcamp. This is a multi-page
+                  responsive website for a machine shop that offers services
+                  such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" className="btn btn-success me-4">
@@ -137,11 +154,18 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/spark-source-central.png" className="card-img-top img-fluid" alt="..." />
+              <img
+                src="../images/spark-source-central.png"
+                className="card-img-top img-fluid"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title text-center">SparkSource Central</h5>
                 <p className="card-text">
-                  SparkSource Central is my Mini-Project 2 for KodeGo's Full-Stack Web Development Bootcamp. This is an API-driven mini-web application, an ecommerce shop that sells various electrical tools, materials, and equipments.
+                  SparkSource Central is my Mini-Project 2 for KodeGo's
+                  Full-Stack Web Development Bootcamp. This is an API-driven
+                  mini-web application, an ecommerce shop that sells various
+                  electrical tools, materials, and equipments.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" className="btn btn-success me-4">
@@ -156,11 +180,18 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/splenr.png" className="card-img-top img-fluid" alt="..." />
+              <img
+                src="../images/splenr.png"
+                className="card-img-top img-fluid"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title text-center">Splenr</h5>
                 <p className="card-text">
-                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp. This is an electrician job platform that enables the job seekers to apply a job and employers to post job, subscribe to a plan and manage applicants.
+                  Splenr is my Capstone Project for KodeGo Full-Stack Web
+                  Development Bootcamp. This is an electrician job platform that
+                  enables the job seekers to apply a job and employers to post
+                  job, subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" className="btn btn-success me-4">
@@ -176,37 +207,72 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <h2 className="text-center fw-bolder my-5"><span>CONTACT</span> ME</h2>
+        <h2 className="text-center fw-bolder my-5">
+          <span>CONTACT</span> ME
+        </h2>
         <div className="row">
           <div className="col-md-6">
             <div className="container">
               <h5 className="text-start">
-                <a href="mailto:jaspherbagor0357@gmail.com" target="_blank" className="text-decoration-none text-black contact-email">
+                <a
+                  href="mailto:jaspherbagor0357@gmail.com"
+                  target="_blank"
+                  className="text-decoration-none text-black contact-email"
+                >
                   <i class="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
               </h5>
-              <h5 className="text-start"> 
-                <a href="tel:09169675327" target="_blank" className="text-decoration-none text-black contact-phone">
+              <h5 className="text-start">
+                <a
+                  href="tel:09169675327"
+                  target="_blank"
+                  className="text-decoration-none text-black contact-phone"
+                >
                   <i class="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
               </h5>
               <div className="d-flex align-items-center justify-content-start mt-5">
-                <a href="https://www.facebook.com/jas.bagor/" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a
+                  href="https://www.facebook.com/jas.bagor/"
+                  target="_blank"
+                  className="text-decoration-none text-black social-icon me-4"
+                >
                   <i class="bi bi-facebook fs-2"></i>
                 </a>
-                <a href="https://github.com/jaspherbagor" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a
+                  href="https://github.com/jaspherbagor"
+                  target="_blank"
+                  className="text-decoration-none text-black social-icon me-4"
+                >
                   <i class="bi bi-github fs-2"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/jaspher-bagor-56274326a/" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a
+                  href="https://www.linkedin.com/in/jaspher-bagor-56274326a/"
+                  target="_blank"
+                  className="text-decoration-none text-black social-icon me-4"
+                >
                   <i class="bi bi-linkedin fs-2"></i>
                 </a>
-                <a href="https://www.tiktok.com/@jasbgr" target="_blank" className="text-decoration-none text-black social-icon">
+                <a
+                  href="https://www.tiktok.com/@jasbgr"
+                  target="_blank"
+                  className="text-decoration-none text-black social-icon"
+                >
                   <i class="bi bi-tiktok fs-2"></i>
                 </a>
               </div>
               <div className="d-flex align-items-center justify-content-start mt-5">
-                <a href="https://www.canva.com/design/DAF8QjW3hRg/NwvIAQRpx4FKiXQ1PkdqVg/view?utm_content=DAF8QjW3hRg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" className="text-decoration-none">
-                  <button type="button" className="btn btn-success view-resume px-2 py-3 fw-semibold">View Resume</button>
+                <a
+                  href="https://www.canva.com/design/DAF8QjW3hRg/NwvIAQRpx4FKiXQ1PkdqVg/view?utm_content=DAF8QjW3hRg&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                  target="_blank"
+                  className="text-decoration-none"
+                >
+                  <button
+                    type="button"
+                    className="btn btn-success view-resume px-2 py-3 fw-semibold"
+                  >
+                    View Resume
+                  </button>
                 </a>
               </div>
             </div>
@@ -215,18 +281,50 @@ const Home = () => {
             <div className="container">
               <form>
                 <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" name="Name" class="form-control" id="name" />
+                  <label for="name" class="form-label">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    name="Name"
+                    value={users.Name}
+                    onChange={data}
+                    class="form-control"
+                    id="name"
+                  />
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" name="Email" id="email"/>
+                  <label for="email" class="form-label">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    value={users.Email}
+                    onChange={data}
+                    name="Email"
+                    id="email"
+                  />
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea name="message" id="Message" className="w-100 form-control"></textarea>
+                  <label for="message" class="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    name="Message"
+                    id="message"
+                    value={users.Message}
+                    onChange={data}
+                    className="w-100 form-control"
+                  ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary submit-message" onClick={sendData}>Submit</button>
+                <button
+                  type="submit"
+                  class="btn btn-primary submit-message"
+                  onClick={sendData}
+                >
+                  Submit
+                </button>
               </form>
             </div>
           </div>
