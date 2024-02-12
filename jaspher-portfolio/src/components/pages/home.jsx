@@ -90,7 +90,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">SparkSource Central</h5>
                 <p className="card-text">
-                  SparkSource Central is my Mini-Project 2 for KodeGo's Full-Stack Web Development Bootcamp. This is an API-driven mini-web application, an ecommerce shop that sells various electrical tools, materials, and equipments. 
+                  SparkSource Central is my Mini-Project 2 for KodeGo's Full-Stack Web Development Bootcamp. This is an API-driven mini-web application, an ecommerce shop that sells various electrical tools, materials, and equipments.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" className="btn btn-success me-4">
@@ -127,10 +127,29 @@ const Home = () => {
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center">
+            <div className="container">
 
+            </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center">
-            
+            <div className="container">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"/>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
