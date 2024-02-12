@@ -147,7 +147,7 @@ const Home = () => {
                 <a href="" target="_blank" className="text-decoration-none text-black social-icon me-4">
                   <i class="bi bi-github fs-2"></i>
                 </a>
-                <a href="" target="_blank" className="text-decoration-none text-black social-icon me-4">
+                <a href="https://www.linkedin.com/in/jaspher-bagor-56274326a/" target="_blank" className="text-decoration-none text-black social-icon me-4">
                   <i class="bi bi-linkedin fs-2"></i>
                 </a>
                 <a href="https://www.tiktok.com/@jasbgr" target="_blank" className="text-decoration-none text-black social-icon">
