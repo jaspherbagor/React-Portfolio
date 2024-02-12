@@ -71,8 +71,7 @@ const Home = () => {
               <div class="card-body">
                 <h5 class="card-title text-center">Kinabuhing Turnero</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Kinabuhing Turnero is my Mini-Project 1 for KodeGo's Full-Stack Web Development Bootcamp. This is a multi-page responsive website for a machine shop that offers services such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" class="btn btn-primary me-4">
@@ -91,8 +90,7 @@ const Home = () => {
               <div class="card-body">
                 <h5 class="card-title text-center">SparkSource Central</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  SparkSource Central is my Mini-Project 2 for KodeGo's Full-Stack Web Development Bootcamp. This is an API-driven mini-web application, an ecommerce shop that sells various electrical tools, materials, and equipments. 
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" class="btn btn-primary me-4">
@@ -111,7 +109,7 @@ const Home = () => {
               <div class="card-body">
                 <h5 class="card-title text-center">Splenr</h5>
                 <p class="card-text">
-                  Sample Card text
+                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" class="btn btn-primary me-4">
