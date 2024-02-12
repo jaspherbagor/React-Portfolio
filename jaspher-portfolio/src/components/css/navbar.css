@@ -26,7 +26,8 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 .navbar {
-    background:var(--navbar-bg)
+    background:var(--navbar-bg);
+    z-index: 1000;
 }
 
 .navbar-toggler {
