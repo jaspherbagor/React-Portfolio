@@ -155,7 +155,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="d-flex align-items-center justify-content-start mt-5">
-                <a href="" target="_blank" className="text-decoration-none">
+                <a href="https://www.canva.com/design/DAF8QjW3hRg/NwvIAQRpx4FKiXQ1PkdqVg/view?utm_content=DAF8QjW3hRg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" className="text-decoration-none">
                   <button type="button" className="btn btn-success view-resume px-2 py-3 fw-semibold">View Resume</button>
                 </a>
               </div>
