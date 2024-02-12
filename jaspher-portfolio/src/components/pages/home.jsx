@@ -1,6 +1,56 @@
 import React from "react";
 import "../css/home.css";
+import { useState } from "react";
 const Home = () => {
+  const [users, setUser] = useState(
+    {
+      Name: '', Email: '', Message: ''
+    }
+  )
+  
+  let name, value
+  
+  const url = 'https://portfolio-contact-3d35c-default-rtdb.firebaseio.com/Message.json';
+
+  const data = (e) => 
+  {
+    name = e.target.name;
+    value = e.target.value;
+    setUser({...users, [name]: value})
+  }
+
+  const [submitted, setSubmitted] = useState(false);
+
+  const sendData = async (e) =>
+  {
+      const{Name, Email, Message} = users
+      e.preventDefault();
+      const options = {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            Name: users.Name,
+            Email: users.Email,
+            Message: users.Message
+          })
+      }
+      const res = await fetch(url, options)
+      console.log(res)
+      if (res) {
+        setUser({
+          Name: '',
+          Email: '',
+          Message: ''
+        })
+        alert("Your Message Have Been Sent");
+        setSubmitted(true);
+      }
+      else {
+          alert("An Error Ocurred")
+      }
+  }
 
   return (
     <>
@@ -166,17 +216,17 @@ const Home = () => {
               <form>
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" />
+                  <input type="text" name="Name" class="form-control" id="name" />
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" name="email" id="email"/>
+                  <input type="email" class="form-control" name="Email" id="email"/>
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label">Message</label>
-                  <textarea name="message" id="message" className="w-100 form-control"></textarea>
+                  <textarea name="message" id="Message" className="w-100 form-control"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary submit-message">Submit</button>
+                <button type="submit" class="btn btn-primary submit-message" onClick={sendData}>Submit</button>
               </form>
             </div>
           </div>
