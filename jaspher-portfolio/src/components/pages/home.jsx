@@ -140,11 +140,19 @@ const Home = () => {
                   <i class="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
               </p>
-              <div className="d-flex align-items-center justify-content-center">
-                <a href="" target="_blank" className="text-decoration-none text-white">
-
+              <div className="d-flex align-items-center justify-content-start mt-5">
+                <a href="" target="_blank" className="text-decoration-none text-black social-icon">
+                  <i class="bi bi-facebook fs-2"></i>
                 </a>
-                
+                <a href="" target="_blank" className="text-decoration-none text-black social-icon">
+                  <i class="bi bi-github fs-2"></i>
+                </a>
+                <a href="" target="_blank" className="text-decoration-none text-black social-icon">
+                  <i class="bi bi-linkedin fs-2"></i>
+                </a>
+                <a href="" target="_blank" className="text-decoration-none text-black social-icon">
+                  <i class="bi bi-tiktok fs-2"></i>
+                </a>
               </div>
             </div>
           </div>
