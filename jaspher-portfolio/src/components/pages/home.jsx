@@ -125,6 +125,7 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+        <h2 className="text-center fw-bolder my-5"><span>CONTACT</span> ME</h2>
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <div className="container">
