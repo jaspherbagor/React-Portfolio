@@ -67,7 +67,7 @@ const Home = () => {
         <div className="row mt-5">
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/kinabuhing-turnero.png" class="card-img-top img-fluid" alt="..." />
+              <img src="../images/kinabuhing-turnero.png" className="card-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center">Kinabuhing Turnero</h5>
                 <p className="card-text">
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/spark-source-central.png" class="card-img-top img-fluid" alt="..." />
+              <img src="../images/spark-source-central.png" className="card-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center">SparkSource Central</h5>
                 <p className="card-text">
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
-              <img src="../images/splenr.png" class="card-img-top img-fluid" alt="..." />
+              <img src="../images/splenr.png" className="card-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center">Splenr</h5>
                 <p className="card-text">
