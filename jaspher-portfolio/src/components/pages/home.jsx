@@ -130,16 +130,16 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="container">
-              <p className="text-start">
+              <h5 className="text-start">
                 <a href="mailto:jaspherbagor0357@gmail.com" target="_blank" className="text-decoration-none text-black contact-email">
                   <i class="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
-              </p>
-              <p className="text-start"> 
+              </h5>
+              <h5 className="text-start"> 
                 <a href="tel:09169675327" target="_blank" className="text-decoration-none text-black contact-phone">
                   <i class="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
-              </p>
+              </h5>
               <div className="d-flex align-items-center justify-content-start mt-5">
                 <a href="https://www.facebook.com/jas.bagor/" target="_blank" className="text-decoration-none text-black social-icon me-4">
                   <i class="bi bi-facebook fs-2"></i>
@@ -152,6 +152,11 @@ const Home = () => {
                 </a>
                 <a href="https://www.tiktok.com/@jasbgr" target="_blank" className="text-decoration-none text-black social-icon">
                   <i class="bi bi-tiktok fs-2"></i>
+                </a>
+              </div>
+              <div className="d-flex align-items-center justify-content-start mt-5">
+                <a href="" target="_blank" className="text-decoration-none">
+                  <button type="button" className="btn btn-success view-resume px-2 py-3 fw-semibold">View Resume</button>
                 </a>
               </div>
             </div>
