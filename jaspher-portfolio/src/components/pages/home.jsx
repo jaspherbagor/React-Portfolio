@@ -125,7 +125,14 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        
+        <div className="row">
+          <div className="col-md-6 d-flex justify-content-center align-items-center">
+
+          </div>
+          <div className="col-md-6 d-flex justify-content-center align-items-center">
+            
+          </div>
+        </div>
       </section>
     </>
   );
