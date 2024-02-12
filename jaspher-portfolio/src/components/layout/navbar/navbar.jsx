@@ -21,7 +21,7 @@ const Navbar = () => {
                 <a className="nav-link text-white" href="#projects"><i class="bi bi-code-square fs-4"></i> Projects</a>
               </li>
               <li className="nav-item me-3 fs-5">
-                <a className="nav-link text-white" href="#">Contact</a>
+                <a className="nav-link text-white" href="#"><i class="bi bi-telephone fs-4"></i> Contact</a>
               </li>
             </ul>
           </div>
