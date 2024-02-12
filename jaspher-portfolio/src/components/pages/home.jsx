@@ -66,18 +66,18 @@ const Home = () => {
         </h2>
         <div className="row mt-5">
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
-            <div class="card">
+            <div className="card mb-4">
               <img src="../images/kinabuhing-turnero.png" class="card-img-top img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title text-center">Kinabuhing Turnero</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title text-center">Kinabuhing Turnero</h5>
+                <p className="card-text">
                   Kinabuhing Turnero is my Mini-Project 1 for KodeGo's Full-Stack Web Development Bootcamp. This is a multi-page responsive website for a machine shop that offers services such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" class="btn btn-primary me-4">
+                  <a href="#" className="btn btn-success me-4">
                     Live Preview
                   </a>
-                  <a href="#" class="btn btn-secondary">
+                  <a href="#" className="btn btn-secondary">
                     Github Code
                   </a>
                 </div>
@@ -85,18 +85,18 @@ const Home = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
-            <div class="card">
+            <div className="card mb-4">
               <img src="../images/spark-source-central.png" class="card-img-top img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title text-center">SparkSource Central</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title text-center">SparkSource Central</h5>
+                <p className="card-text">
                   SparkSource Central is my Mini-Project 2 for KodeGo's Full-Stack Web Development Bootcamp. This is an API-driven mini-web application, an ecommerce shop that sells various electrical tools, materials, and equipments. 
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" class="btn btn-primary me-4">
+                  <a href="#" className="btn btn-success me-4">
                     Live Preview
                   </a>
-                  <a href="#" class="btn btn-secondary">
+                  <a href="#" className="btn btn-secondary">
                     Github Code
                   </a>
                 </div>
@@ -104,18 +104,18 @@ const Home = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
-            <div class="card">
+            <div className="card mb-4">
               <img src="../images/splenr.png" class="card-img-top img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title text-center">Splenr</h5>
-                <p class="card-text">
-                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp. This is an electrician job platform that enables the job seekers to apply a job and employers to subscribe to a plan and manage applicants.
+              <div className="card-body">
+                <h5 className="card-title text-center">Splenr</h5>
+                <p className="card-text">
+                  Splenr is my Capstone Project for KodeGo Full-Stack Web Development Bootcamp. This is an electrician job platform that enables the job seekers to apply a job and employers to post job, subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" class="btn btn-primary me-4">
+                  <a href="#" className="btn btn-success me-4">
                     Live Preview
                   </a>
-                  <a href="#" class="btn btn-secondary">
+                  <a href="#" className="btn btn-secondary">
                     Github Code
                   </a>
                 </div>
