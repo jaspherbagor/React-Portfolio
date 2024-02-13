@@ -23,7 +23,7 @@ const Home = () => {
 
   const sendData = async (e) => {
     e.preventDefault();
-  
+
     if (!users.Name || !users.Email || !users.Message) {
       alert("No data inputted!");
     } else {
@@ -39,11 +39,11 @@ const Home = () => {
           Message: users.Message,
         }),
       };
-  
+
       try {
         const res = await fetch(url, options);
         console.log(res);
-  
+
         if (res.ok) {
           setUser({
             Name: "",
