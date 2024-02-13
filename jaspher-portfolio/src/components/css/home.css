@@ -27,12 +27,9 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
+
 .hero-section {
-    /* background:var(--hero-section-bg) */
-    background: url('https://t4.ftcdn.net/jpg/03/57/58/79/360_F_357587935_0rHIFoFUQDHexBAvjepKISZzh1Z2IUC8.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center
+    background:var(--hero-section-bg)
 }
 
 .hero-btn {
@@ -59,7 +56,7 @@ html, body {
 .about-img {
     height: 300px;
     border-radius: 50%;
-    border: 2px solid var(--primary-color)
+    border: 4px solid var(--primary-color)
 }
 
 .about-description {
@@ -69,4 +66,15 @@ html, body {
 
 h3 span, h2 span, h1 span {
     color: var(--primary-color)
+}
+
+.project-section {
+    background: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40771/FreeVectorbluebackgroundyc1021_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.contact-section {
+    background: var(--navbar-bg)
 }

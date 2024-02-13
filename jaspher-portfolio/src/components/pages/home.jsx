@@ -91,10 +91,10 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 bg-secondary"
+        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5"
         id="about"
       >
-        <h2 className="fw-bolder text-white text-center my-5">
+        <h2 className="fw-bolder text-center my-5">
           <span>ABOUT</span> ME
         </h2>
         <div className="container d-flex justify-content-center align-items-center">
@@ -112,17 +112,17 @@ const Home = () => {
               applications.
             </span>
           </h3>
-          <h4 className="text-center mt-4 about-description">
+          <h5 className="text-center mt-4 about-description">
             My journey into web development started when I enrolled at KodeGo
             Full-Stack Web Development Bootcamp on August 30, 2023 and graduated
             in January 30, 2024. I specialize in HTML, CSS, JavaScript,
             Bootstrap, React, NodeJS, MySQL, PHP and Laravel , always eager to
             learn and adapt to new challenges.
-          </h4>
+          </h5>
         </div>
       </section>
-      <section className="portfolio-section container-fluid px-md-4 px-sm-4 px-2 py-5 bg-primary">
-        <h2 className="text-center fw-bolder text-white" id="projects">
+      <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+        <h2 className="text-center fw-bolder" id="projects">
           MY <span>PROJECTS</span>
         </h2>
         <div className="row mt-5">
@@ -207,7 +207,7 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <h2 className="text-center fw-bolder my-5">
+        <h2 className="text-center fw-bolder my-5 text-white">
           <span>CONTACT</span> ME
         </h2>
         <div className="row">
@@ -217,7 +217,7 @@ const Home = () => {
                 <a
                   href="mailto:jaspherbagor0357@gmail.com"
                   target="_blank"
-                  className="text-decoration-none text-black contact-email"
+                  className="text-decoration-none text-white contact-email"
                 >
                   <i class="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
@@ -226,7 +226,7 @@ const Home = () => {
                 <a
                   href="tel:09169675327"
                   target="_blank"
-                  className="text-decoration-none text-black contact-phone"
+                  className="text-decoration-none text-white contact-phone"
                 >
                   <i class="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
@@ -235,28 +235,28 @@ const Home = () => {
                 <a
                   href="https://www.facebook.com/jas.bagor/"
                   target="_blank"
-                  className="text-decoration-none text-black social-icon me-4"
+                  className="text-decoration-none text-white social-icon me-4"
                 >
                   <i class="bi bi-facebook fs-2"></i>
                 </a>
                 <a
                   href="https://github.com/jaspherbagor"
                   target="_blank"
-                  className="text-decoration-none text-black social-icon me-4"
+                  className="text-decoration-none text-white social-icon me-4"
                 >
                   <i class="bi bi-github fs-2"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jaspher-bagor-56274326a/"
                   target="_blank"
-                  className="text-decoration-none text-black social-icon me-4"
+                  className="text-decoration-none text-white social-icon me-4"
                 >
                   <i class="bi bi-linkedin fs-2"></i>
                 </a>
                 <a
                   href="https://www.tiktok.com/@jasbgr"
                   target="_blank"
-                  className="text-decoration-none text-black social-icon"
+                  className="text-decoration-none text-white social-icon"
                 >
                   <i class="bi bi-tiktok fs-2"></i>
                 </a>
@@ -281,7 +281,7 @@ const Home = () => {
             <div className="container">
               <form>
                 <div class="mb-3">
-                  <label for="name" class="form-label">
+                  <label for="name" class="form-label text-white">
                     Name
                   </label>
                   <input
@@ -294,7 +294,7 @@ const Home = () => {
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">
+                  <label for="email" class="form-label text-white">
                     Email
                   </label>
                   <input
@@ -307,7 +307,7 @@ const Home = () => {
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">
+                  <label for="message" class="form-label text-white">
                     Message
                   </label>
                   <textarea
