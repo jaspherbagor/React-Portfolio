@@ -160,10 +160,10 @@ const Home = () => {
                   such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://jaspherbagor.github.io/Kinabuhing-Turnero/" target="_blank" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="#" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/Kinabuhing-Turnero" target="_blank" className="btn btn-secondary github-code-btn">
                     <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
