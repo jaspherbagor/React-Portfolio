@@ -287,7 +287,7 @@ const Home = () => {
                 >
                   <button
                     type="button"
-                    className="btn btn-success view-resume px-2 py-3 fw-semibold"
+                    className="btn btn-success view-resume px-3 py-2 fw-semibold fs-5"
                   >
                     View Resume
                   </button>
@@ -338,7 +338,7 @@ const Home = () => {
                 </div>
                 <button
                   type="submit"
-                  class="btn btn-success submit-message"
+                  class="btn btn-success submit-message px-3 py-2 fw-semibold fs-5 mt-3"
                   onClick={sendData}
                 >
                   Submit
