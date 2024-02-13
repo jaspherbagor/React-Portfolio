@@ -105,14 +105,14 @@ const Home = () => {
           />
         </div>
         <div className="container">
-          <h3 className="mt-5 text-white text-center about-description">
+          <h3 className="mt-5 text-center about-description">
             I am a Philippine-based full-stack web developer with a{" "}
             <span>
               strong passion for creating dynamic and user-friendly
               applications.
             </span>
           </h3>
-          <h4 className="text-center text-white mt-4 about-description">
+          <h4 className="text-center mt-4 about-description">
             My journey into web development started when I enrolled at KodeGo
             Full-Stack Web Development Bootcamp on August 30, 2023 and graduated
             in January 30, 2024. I specialize in HTML, CSS, JavaScript,
