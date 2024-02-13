@@ -145,7 +145,7 @@ const Home = () => {
         <h2 className="text-center fw-bolder text-white" id="projects">
           MY <span>PROJECTS</span>
         </h2>
-        <div className="row mt-5">
+        <div className="row mt-5 px-2">
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
               <img
@@ -231,7 +231,7 @@ const Home = () => {
           <span>CONTACT</span> ME
         </h2>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mb-4">
             <div className="container">
               <h5 className="text-start">
                 <a
