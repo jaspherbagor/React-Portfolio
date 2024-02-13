@@ -166,7 +166,7 @@ const Home = () => {
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
                   <a href="https://github.com/jaspherbagor/Kinabuhing-Turnero" target="_blank" className="btn btn-secondary github-code-btn">
-                    <i class="bi bi-github fs-5"></i> Github Code
+                    <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
@@ -192,7 +192,7 @@ const Home = () => {
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
                   <a href="https://github.com/jaspherbagor/SparkSourceCentral" target="_blank" className="btn btn-secondary github-code-btn">
-                    <i class="bi bi-github fs-5"></i> Github Code
+                    <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
@@ -218,7 +218,7 @@ const Home = () => {
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
                   <a href="https://github.com/jaspherbagor/SPLENR" target="_blank" className="btn btn-secondary github-code-btn">
-                    <i class="bi bi-github fs-5"></i> Github Code
+                    <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
@@ -239,7 +239,7 @@ const Home = () => {
                   target="_blank"
                   className="text-decoration-none text-white contact-email"
                 >
-                  <i class="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
+                  <i className="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
               </h5>
               <h5 className="text-start">
@@ -248,7 +248,7 @@ const Home = () => {
                   target="_blank"
                   className="text-decoration-none text-white contact-phone"
                 >
-                  <i class="bi bi-telephone fs-5"></i> 0916-967-5327
+                  <i className="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
               </h5>
               <div className="d-flex align-items-center justify-content-start mt-5">
@@ -257,28 +257,28 @@ const Home = () => {
                   target="_blank"
                   className="text-decoration-none text-white social-icon me-4"
                 >
-                  <i class="bi bi-facebook fs-2"></i>
+                  <i className="bi bi-facebook fs-2"></i>
                 </a>
                 <a
                   href="https://github.com/jaspherbagor"
                   target="_blank"
                   className="text-decoration-none text-white social-icon me-4"
                 >
-                  <i class="bi bi-github fs-2"></i>
+                  <i className="bi bi-github fs-2"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jaspher-bagor-56274326a/"
                   target="_blank"
                   className="text-decoration-none text-white social-icon me-4"
                 >
-                  <i class="bi bi-linkedin fs-2"></i>
+                  <i className="bi bi-linkedin fs-2"></i>
                 </a>
                 <a
                   href="https://www.tiktok.com/@jasbgr"
                   target="_blank"
                   className="text-decoration-none text-white social-icon"
                 >
-                  <i class="bi bi-tiktok fs-2"></i>
+                  <i className="bi bi-tiktok fs-2"></i>
                 </a>
               </div>
               <div className="d-flex align-items-center justify-content-start mt-5">
@@ -300,8 +300,8 @@ const Home = () => {
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <div className="container">
               <form>
-                <div class="mb-3">
-                  <label for="name" class="form-label text-white">
+                <div className="mb-3">
+                  <label htmlFor="name" className="form-label text-white">
                     Name
                   </label>
                   <input
@@ -309,25 +309,25 @@ const Home = () => {
                     name="Name"
                     value={users.Name}
                     onChange={data}
-                    class="form-control"
+                    className="form-control"
                     id="name"
                   />
                 </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label text-white">
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label text-white">
                     Email
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     value={users.Email}
                     onChange={data}
                     name="Email"
                     id="email"
                   />
                 </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label text-white">
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label text-white">
                     Message
                   </label>
                   <textarea
@@ -340,7 +340,7 @@ const Home = () => {
                 </div>
                 <button
                   type="submit"
-                  class="btn btn-success submit-message px-3 py-2 fw-semibold fs-5 mt-3"
+                  className="btn btn-success submit-message px-3 py-2 fw-semibold fs-5 mt-3"
                   onClick={sendData}
                 >
                   Submit
