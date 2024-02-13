@@ -214,10 +214,10 @@ const Home = () => {
                   job, subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://splenr.tech/" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="#" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/SPLENR" className="btn btn-secondary github-code-btn">
                     <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
