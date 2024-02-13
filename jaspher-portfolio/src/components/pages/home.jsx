@@ -94,9 +94,11 @@ const Home = () => {
               <h4 className="fw-semibold mt-3 mb-4">
                 Passionate about crafting innovative web solutions.
               </h4>
-              <button className="btn btn-warning fw-semibold fs-5 px-4 py-3 hero-btn">
-                Contact Me
-              </button>
+              <a href="#contactMe">
+                <button className="btn btn-warning fw-semibold fs-5 px-4 py-3 hero-btn">
+                  Contact Me
+                </button>
+              </a>
             </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center pt-5">
@@ -224,7 +226,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+      <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="contactMe">
         <h2 className="text-center fw-bolder my-5 text-white">
           <span>CONTACT</span> ME
         </h2>
