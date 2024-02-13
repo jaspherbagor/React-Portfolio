@@ -32,11 +32,8 @@ html, body {
 }
 
 .navbar-toggler {
-    border: none
-}
-
-.navbar-toggler-icon {
-    color:var(--text-color-light)
+    border: none;
+    background-color: var(--primary-color)
 }
 
 .navbar-brand span, .nav-link:hover {
