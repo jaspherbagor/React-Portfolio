@@ -28,7 +28,11 @@ html, body {
 }
 
 .hero-section {
-    background:var(--hero-section-bg)
+    /* background:var(--hero-section-bg) */
+    background: url('https://t4.ftcdn.net/jpg/03/57/58/79/360_F_357587935_0rHIFoFUQDHexBAvjepKISZzh1Z2IUC8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 }
 
 .hero-btn {
@@ -44,6 +48,14 @@ html, body {
     color:var(--text-color-light)
 }
 
+.about-section {
+    background: url('https://img.freepik.com/premium-vector/abstract-fluid-background-with-blue-yellow-color-vector-illustration_500223-972.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
 .about-img {
     height: 300px;
     border-radius: 50%;
@@ -55,6 +67,6 @@ html, body {
     letter-spacing: 1.5px;
 }
 
-h3 span, h2 span {
+h3 span, h2 span, h1 span {
     color: var(--primary-color)
 }
