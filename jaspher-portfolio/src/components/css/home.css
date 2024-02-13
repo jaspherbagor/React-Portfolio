@@ -32,14 +32,14 @@ html, body {
     background:var(--hero-section-bg)
 }
 
-.hero-btn, .view-resume, .submit-message {
+.hero-btn, .view-resume, .submit-message, .live-preview-btn, .github-code-btn {
     background: var(--navbar-bg);
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     color:var(--text-color-light)
 }
 
-.hero-btn:hover, .view-resume:hover, .submit-message:hover {
+.hero-btn:hover, .view-resume:hover, .submit-message:hover, .live-preview-btn:hover, .github-code-btn:hover {
     background: var(--text-color-dark);
     border: 2px solid var(--primary-color);
     color:var(--text-color-light)

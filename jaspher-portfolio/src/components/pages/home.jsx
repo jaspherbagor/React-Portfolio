@@ -160,11 +160,11 @@ const Home = () => {
                   such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" className="btn btn-success me-4">
-                    Live Preview
+                  <a href="#" className="btn btn-success live-preview-btn me-4">
+                    <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="#" className="btn btn-secondary">
-                    Github Code
+                  <a href="#" className="btn btn-secondary github-code-btn">
+                    <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
@@ -186,11 +186,11 @@ const Home = () => {
                   electrical tools, materials, and equipments.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" className="btn btn-success me-4">
-                    Live Preview
+                  <a href="#" className="btn btn-success live-preview-btn me-4">
+                    <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="#" className="btn btn-secondary">
-                    Github Code
+                  <a href="#" className="btn btn-secondary github-code-btn">
+                    <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
@@ -212,11 +212,11 @@ const Home = () => {
                   job, subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="#" className="btn btn-success me-4">
-                    Live Preview
+                  <a href="#" className="btn btn-success live-preview-btn me-4">
+                    <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="#" className="btn btn-secondary">
-                    Github Code
+                  <a href="#" className="btn btn-secondary github-code-btn">
+                    <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
               </div>
