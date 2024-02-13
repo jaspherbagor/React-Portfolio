@@ -94,7 +94,7 @@ const Home = () => {
               <h4 className="fw-semibold mt-3 mb-4">
                 Passionate about crafting innovative web solutions.
               </h4>
-              <button className="btn btn-warning fw-semibold px-2 py-3 hero-btn">
+              <button className="btn btn-warning fw-semibold fs-5 px-4 py-3 hero-btn">
                 Contact Me
               </button>
             </div>
@@ -338,7 +338,7 @@ const Home = () => {
                 </div>
                 <button
                   type="submit"
-                  class="btn btn-primary submit-message"
+                  class="btn btn-success submit-message"
                   onClick={sendData}
                 >
                   Submit
