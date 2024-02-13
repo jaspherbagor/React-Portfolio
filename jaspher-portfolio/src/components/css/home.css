@@ -78,3 +78,7 @@ h3 span, h2 span, h1 span {
 .contact-section {
     background: var(--navbar-bg)
 }
+
+.toast-container {
+    top:45px
+}

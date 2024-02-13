@@ -21,46 +21,64 @@ const Home = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
+  const showToast = (label, message, color, border, background) => {
+    const toastLive = document.getElementById('liveToast');
+    const toastLabel = document.getElementById('toastLabel');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastHeader = document.getElementById('toastHeader');
+    const toast = new window.bootstrap.Toast(toastLive);
+  
+    toastLabel.innerText = label;
+    toastLabel.style.color = "#FFFFFF";
+    toastMessage.innerText = message;
+    toastMessage.style.color = color;
+    toastLive.style.border = `2.5px solid ${border}`;
+    toastHeader.style.background = background;
+    toast.show();
+  };
+  
   const sendData = async (e) => {
     e.preventDefault();
-
+  
     if (!users.Name || !users.Email || !users.Message) {
-      alert("No data inputted!");
-    } else {
-      const { Name, Email, Message } = users;
-      const options = {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          Name: users.Name,
-          Email: users.Email,
-          Message: users.Message,
-        }),
-      };
-
-      try {
-        const res = await fetch(url, options);
-        console.log(res);
-
-        if (res.ok) {
-          setUser({
-            Name: "",
-            Email: "",
-            Message: "",
-          });
-          alert("Your Message Have Been Sent");
-          setSubmitted(true);
-        } else {
-          alert("An Error Occurred");
-        }
-      } catch (error) {
-        console.error("Error:", error);
-        alert("An error occurred while sending the message.");
+      showToast("OPS!!", "Please Fill All The Required Information!", "red", "red", "#8d0000");
+      return;
+    }
+  
+    const { Name, Email, Message } = users;
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        Name: users.Name,
+        Email: users.Email,
+        Message: users.Message,
+      }),
+    };
+  
+    try {
+      const res = await fetch(url, options);
+      console.log(res);
+  
+      if (res.ok) {
+        setUser({
+          Name: "",
+          Email: "",
+          Message: "",
+        });
+        showToast("SUCCESS", "Your Message Has Been Sent", "#000000", "#fca311", "#14213d");
+        setSubmitted(true);
+      } else {
+        showToast("ERROR", "An Error Occurred", "red", "red", "red");
       }
+    } catch (error) {
+      console.error("Error:", error);
+      showToast("ERROR", "An Error Occurred While Sending the Message", "red", "red", "red");
     }
   };
+  
 
   return (
     <>
@@ -330,6 +348,18 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="container">
+        <div className="toast-container position-fixed start-50 translate-middle p-2">
+          <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div className="toast-header" id="toastHeader">
+                  <strong className="me-auto" id="toastLabel"></strong>
+                  <button type="button" className="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div className="toast-body fw-medium" id="toastMessage">
+              </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
