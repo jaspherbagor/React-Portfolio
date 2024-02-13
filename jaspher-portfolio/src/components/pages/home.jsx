@@ -188,10 +188,10 @@ const Home = () => {
                   electrical tools, materials, and equipments.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://spark-source-central.vercel.app/" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://spark-source-central.vercel.app/" target="_blank" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/SparkSourceCentral" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/SparkSourceCentral" target="_blank" className="btn btn-secondary github-code-btn">
                     <i class="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
