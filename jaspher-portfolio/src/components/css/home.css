@@ -29,7 +29,8 @@ html, body {
 
 
 .hero-section {
-    background:var(--hero-section-bg)
+    background:var(--hero-section-bg);
+    min-height: 100vh
 }
 
 .hero-btn, .view-resume, .submit-message, .live-preview-btn, .github-code-btn {
