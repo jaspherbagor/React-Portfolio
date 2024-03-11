@@ -124,7 +124,7 @@ const Home = () => {
             className="img-fluid about-img"
           />
         </div>
-        <div className="container">
+        <div className="container align-items-center justify-content-center col-md-10 col-sm-10 col-12">
           <h3 className="mt-5 text-center about-description">
             I am a Philippine-based full-stack web developer with a{" "}
             <span>
