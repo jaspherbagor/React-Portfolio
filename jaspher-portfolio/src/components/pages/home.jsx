@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 bg-dark"
+        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5"
         id="about"
       >
         <h2 className="fw-bolder text-center my-5">
@@ -228,7 +228,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5 bg-dark" id="contactMe">
+      <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="contactMe">
         <h2 className="text-center fw-bolder my-5 text-white">
           <span>CONTACT</span> ME
         </h2>
