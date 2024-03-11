@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding:0;
@@ -24,7 +24,7 @@ html, body {
     --text-color-light: #fff;
     --hero-section-bg: #f1f1f1f1;
     --text-color-dark: #000;
-    --font-family: 'Inter', sans-serif;
+    --font-family: 'Raleway', sans-serif;
 }
 
 

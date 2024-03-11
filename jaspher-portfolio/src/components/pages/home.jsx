@@ -111,7 +111,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5"
+        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 bg-dark"
         id="about"
       >
         <h2 className="fw-bolder text-center my-5">
