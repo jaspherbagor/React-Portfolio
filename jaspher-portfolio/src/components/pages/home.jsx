@@ -82,7 +82,7 @@ const Home = () => {
 
   return (
     <div className="content">
-      <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+      <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5 text-white">
         <div className="col-md-11 col-12 align-items-center justify-content-center container d-flex">
           <div className="row">
             <div className="col-md-6 d-flex justify-content-center align-items-center">
@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5"
+        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 text-white"
         id="about"
       >
         <h2 className="fw-bolder text-center my-5">
@@ -126,7 +126,7 @@ const Home = () => {
             className="img-fluid about-img"
           />
         </div>
-        <div className="container align-items-center justify-content-center col-md-10 col-sm-10 col-12">
+        <div className="container align-items-center justify-content-center col-md-10 col-sm-10 col-12 text-white">
           <h3 className="mt-5 text-center about-description">
             I am a Philippine-based full-stack web developer with a{" "}
             <span>
