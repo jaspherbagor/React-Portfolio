@@ -87,10 +87,10 @@ const Home = () => {
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <div className="container pt-5">
               <h3>Hello! </h3>
-              <h1 className="fw-bolder display-3">
+              <h1 className="fw-medium display-4">
                 I'm <span>Jaspher Bagor</span>
               </h1>
-              <h3 className="fw-semibold mt-4">A Full-Stack Web Developer</h3>
+              <h3 className="fw-semibold mt-4 fw-medium">A Full-Stack Web Developer</h3>
               <h4 className="fw-semibold mt-3 mb-4">
                 Passionate about crafting innovative web solutions.
               </h4>
