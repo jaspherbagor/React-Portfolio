@@ -82,7 +82,7 @@ const Home = () => {
 
   return (
     <div className="content">
-      <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5 text-white">
+      <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5 text-black">
         <div className="col-md-11 col-12 align-items-center justify-content-center container d-flex">
           <div className="row">
             <div className="col-md-6 d-flex justify-content-center align-items-center">
@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 text-white"
+        className="container-fluid about-section px-md-4 px-sm-4 px-2 py-5 text-black"
         id="about"
       >
         <h2 className="fw-bolder text-center my-5">
@@ -126,7 +126,7 @@ const Home = () => {
             className="img-fluid about-img"
           />
         </div>
-        <div className="container align-items-center justify-content-center col-md-10 col-sm-10 col-12 text-white">
+        <div className="container align-items-center justify-content-center col-md-10 col-sm-10 col-12 text-black">
           <h3 className="mt-5 text-center about-description">
             I am a Philippine-based full-stack web developer with a{" "}
             <span>
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
       </section>
       <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <h2 className="text-center fw-bolder text-white" id="projects">
+        <h2 className="text-center fw-bolder text-black" id="projects">
           MY <span>PROJECTS</span>
         </h2>
         <div className="row mt-5 px-2">
@@ -229,7 +229,7 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="contactMe">
-        <h2 className="text-center fw-bolder my-5 text-white">
+        <h2 className="text-center fw-bolder my-5 text-black">
           <span>CONTACT</span> ME
         </h2>
         <div className="row">
@@ -239,7 +239,7 @@ const Home = () => {
                 <a
                   href="mailto:jaspherbagor0357@gmail.com"
                   target="_blank"
-                  className="text-decoration-none text-white contact-email"
+                  className="text-decoration-none text-black contact-email"
                 >
                   <i className="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
                 </a>
@@ -248,7 +248,7 @@ const Home = () => {
                 <a
                   href="tel:09169675327"
                   target="_blank"
-                  className="text-decoration-none text-white contact-phone"
+                  className="text-decoration-none text-black contact-phone"
                 >
                   <i className="bi bi-telephone fs-5"></i> 0916-967-5327
                 </a>
@@ -257,28 +257,28 @@ const Home = () => {
                 <a
                   href="https://www.facebook.com/jas.bagor/"
                   target="_blank"
-                  className="text-decoration-none text-white social-icon me-4"
+                  className="text-decoration-none text-black social-icon me-4"
                 >
                   <i className="bi bi-facebook fs-2"></i>
                 </a>
                 <a
                   href="https://github.com/jaspherbagor"
                   target="_blank"
-                  className="text-decoration-none text-white social-icon me-4"
+                  className="text-decoration-none text-black social-icon me-4"
                 >
                   <i className="bi bi-github fs-2"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jaspher-bagor-56274326a/"
                   target="_blank"
-                  className="text-decoration-none text-white social-icon me-4"
+                  className="text-decoration-none text-black social-icon me-4"
                 >
                   <i className="bi bi-linkedin fs-2"></i>
                 </a>
                 <a
                   href="https://www.tiktok.com/@jasbgr"
                   target="_blank"
-                  className="text-decoration-none text-white social-icon"
+                  className="text-decoration-none text-black social-icon"
                 >
                   <i className="bi bi-tiktok fs-2"></i>
                 </a>
@@ -303,7 +303,7 @@ const Home = () => {
             <div className="container">
               <form>
                 <div className="mb-3">
-                  <label htmlFor="name" className="form-label text-white">
+                  <label htmlFor="name" className="form-label text-black">
                     Name
                   </label>
                   <input
@@ -316,7 +316,7 @@ const Home = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="email" className="form-label text-white">
+                  <label htmlFor="email" className="form-label text-black">
                     Email
                   </label>
                   <input
@@ -329,7 +329,7 @@ const Home = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="message" className="form-label text-white">
+                  <label htmlFor="message" className="form-label text-black">
                     Message
                   </label>
                   <textarea
@@ -337,7 +337,7 @@ const Home = () => {
                     id="message"
                     value={users.Message}
                     onChange={data}
-                    className="w-100 form-control"
+                    className="w-100 form-control text-black"
                   ></textarea>
                 </div>
                 <button

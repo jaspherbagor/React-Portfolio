@@ -29,10 +29,11 @@ html, body {
 }
 
 .content {
-    background-image: url('../../../public/images/projects-bg.svg');
+    /* background-image: url('../../../public/images/projects-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background: var(--hero-section-bg)
 
 }
 
@@ -45,13 +46,13 @@ html, body {
     background: var(--primary-color);
     border: 2px solid var(--navbar-bg);
     border-radius: 10px;
-    color:var(--text-color-light)
+    color:var(--text-color-dark)
 }
 
 .hero-btn:hover, .view-resume:hover, .submit-message:hover, .live-preview-btn:hover, .github-code-btn:hover {
     background: var(--navbar-bg);
     border: 2px solid var(--primary-color);
-    color:var(--text-color-light)
+    color:var(--text-color-dark)
 }
 
 /* .about-section {
