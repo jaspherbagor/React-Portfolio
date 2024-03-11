@@ -19,8 +19,9 @@ html, body {
 }
 
 :root {
-    --primary-color: #fca311;
-    --navbar-bg: #14213d;
+    --primary-color: #2ecc71;
+    --navbar-bg: #1877b6;
+    --cta-accent: #e74c3c;
     --text-color-light: #fff;
     --hero-section-bg: #f1f1f1f1;
     --text-color-dark: #000;
@@ -34,14 +35,14 @@ html, body {
 }
 
 .hero-btn, .view-resume, .submit-message, .live-preview-btn, .github-code-btn {
-    background: var(--navbar-bg);
-    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    border: 2px solid var(--navbar-bg);
     border-radius: 10px;
     color:var(--text-color-light)
 }
 
 .hero-btn:hover, .view-resume:hover, .submit-message:hover, .live-preview-btn:hover, .github-code-btn:hover {
-    background: var(--text-color-dark);
+    background: var(--navbar-bg);
     border: 2px solid var(--primary-color);
     color:var(--text-color-light)
 }
@@ -76,7 +77,7 @@ h3 span, h2 span, h1 span {
 
 .card {
     border-radius: 10px;
-    border: 2px solid var(--text-color-dark);
+    border: 2px solid var(--primary-color);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     cursor: pointer;
 }
@@ -93,7 +94,7 @@ h3 span, h2 span, h1 span {
 }
 
 .contact-section {
-    background: var(--navbar-bg)
+    /* background: var(--navbar-bg) */
 }
 
 .toast-container {
