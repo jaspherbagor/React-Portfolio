@@ -81,7 +81,7 @@ const Home = () => {
   
 
   return (
-    <>
+    <div className="content">
       <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
         <div className="col-md-11 col-12 align-items-center justify-content-center container d-flex">
           <div className="row">
@@ -364,7 +364,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
