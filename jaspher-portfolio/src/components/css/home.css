@@ -30,7 +30,10 @@ html, body {
 
 .content {
     background-image: url('../../../public/images/projects-bg.svg');
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .hero-section {
@@ -97,9 +100,9 @@ h3 span, h2 span, h1 span {
     background-position: center
 } */
 
-.contact-section {
-    /* background: var(--navbar-bg) */
-}
+/* .contact-section {
+    background: var(--navbar-bg) 
+} */
 
 .toast-container {
     top:45px
