@@ -83,30 +83,32 @@ const Home = () => {
   return (
     <>
       <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <div className="row">
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
-            <div className="container pt-5">
-              <h3>Hello! </h3>
-              <h1 className="fw-medium display-4">
-                I'm <span>Jaspher Bagor</span>
-              </h1>
-              <h3 className="fw-semibold mt-4 fw-medium">A Full-Stack Web Developer</h3>
-              <h4 className="fw-semibold mt-3 mb-4">
-                Passionate about crafting innovative web solutions.
-              </h4>
-              <a href="#contactMe">
-                <button className="btn btn-warning fw-semibold fs-5 px-4 py-3 hero-btn">
-                  Contact Me
-                </button>
-              </a>
+        <div className="col-md-11 col-12 align-items-center justify-content-center container d-flex">
+          <div className="row">
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
+              <div className="container pt-5">
+                <h3>Hello! </h3>
+                <h1 className="fw-medium display-4">
+                  I'm <span>Jaspher Bagor</span>
+                </h1>
+                <h3 className="fw-medium mt-4 fw-medium">A Full-Stack Web Developer</h3>
+                <h4 className="fw-medium mt-3 mb-4">
+                  Passionate about crafting innovative web solutions.
+                </h4>
+                <a href="#contactMe">
+                  <button className="btn btn-warning fw-medium fs-5 px-3 py-2 hero-btn">
+                    Contact Me
+                  </button>
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="col-md-6 d-flex justify-content-center align-items-center pt-5">
-            <img
-              src="images/hero_image.svg"
-              alt="hero-image"
-              className="img-fluid"
-            />
+            <div className="col-md-6 d-flex justify-content-center align-items-center pt-5">
+              <img
+                src="images/hero_image.svg"
+                alt="hero-image"
+                className="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </section>
