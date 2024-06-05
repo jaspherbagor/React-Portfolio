@@ -18,6 +18,9 @@ const Navbar = () => {
                 <a className="nav-link text-white" href="#about"><i className="bi bi-person-circle fs-5"></i> About</a>
               </li>
               <li className="nav-item me-3 fs-5">
+                <a className="nav-link text-white" href="#certificates"><i className="bi bi-award fs-5"></i> Certificates</a>
+              </li>
+              <li className="nav-item me-3 fs-5">
                 <a className="nav-link text-white" href="#projects"><i className="bi bi-code-square fs-5"></i> Projects</a>
               </li>
               <li className="nav-item me-3 fs-5">

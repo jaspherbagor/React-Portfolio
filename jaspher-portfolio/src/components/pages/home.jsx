@@ -143,8 +143,8 @@ const Home = () => {
           </h5>
         </div>
       </section>
-      <section className="certificate-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <h2 className="text-center fw-bolder text-white">
+      <section className="certificate-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="certificates">
+        <h2 className="text-center fw-bolder text-white mt-5">
           MY <span>CERTIFICATES</span>
         </h2>
         <div className="row mt-5">
@@ -203,7 +203,7 @@ const Home = () => {
         </div>
       </section>
       <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="projects">
-        <h2 className="text-center fw-bolder text-white">
+        <h2 className="text-center fw-bolder text-white mt-5">
           MY <span>PROJECTS</span>
         </h2>
         <div className="row mt-5 px-2">
@@ -288,7 +288,7 @@ const Home = () => {
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="contactMe">
-        <h2 className="text-center fw-bolder my-5 text-white">
+        <h2 className="text-center fw-bolder mt-5 text-white">
           <span>CONTACT</span> ME
         </h2>
         <div className="row">
