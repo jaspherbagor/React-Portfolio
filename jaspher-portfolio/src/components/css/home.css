@@ -19,11 +19,11 @@ html, body {
 }
 
 :root {
-    --primary-color: #2ecc71;
+    --primary-color: #12f7d6;
     --navbar-bg: #1877b6;
     --cta-accent: #e74c3c;
     --text-color-light: #fff;
-    --hero-section-bg: #f1f1f1f1;
+    --hero-section-bg: #282f37;
     --text-color-dark: #000;
     --font-family: 'Raleway', sans-serif;
 }
