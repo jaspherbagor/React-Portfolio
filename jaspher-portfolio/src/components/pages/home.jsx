@@ -153,6 +153,11 @@ const Home = () => {
               <img src="../images/responsive-cert.png" alt="" className="card-img-top img-fluid" />
               <div className="card-body">
                 <h5 className="text-center">Responsive Web Design Certification</h5>
+                <div className="text-center mt-3">
+                  <a href="">
+                    <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -161,6 +166,11 @@ const Home = () => {
               <img src="../images/js-cert.png" alt="" className="card-img-top img-fluid" />
               <div className="card-body">
                 <h5 className="text-center">Legacy JavaScript Algorithm and Data Structures Certification</h5>
+                <div className="text-center mt-3">
+                  <a href="">
+                    <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -169,6 +179,11 @@ const Home = () => {
               <img src="../images/front-end-cert.png" alt="" className="card-img-top img-fluid" />
               <div className="card-body">
                 <h5 className="text-center">Front-end Development Libraries Certification</h5>
+                <div className="text-center mt-3">
+                  <a href="">
+                    <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -177,6 +192,11 @@ const Home = () => {
               <img src="../images/kodego-cert.png" alt="" className="card-img-top img-fluid" />
               <div className="card-body">
                 <h5 className="text-center">KodeGo Full-Stack Web Development Certification</h5>
+                <div className="text-center mt-3">
+                  <a href="">
+                    <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
