@@ -154,7 +154,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Responsive Web Design Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/responsive-web-design" target="_blank">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -167,7 +167,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Legacy JavaScript Algorithm and Data Structures Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/javascript-algorithms-and-data-structures" target="_blank">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Front-end Development Libraries Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/front-end-development-libraries" target="_blank">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -193,7 +193,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">KodeGo Full-Stack Web Development Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="">
+                  <a href="https://assets.kodego.ph/public/isa/RPm74AwY28g2EjQPtILl6EjBGWakcVeolOkuLdQ6.pdf" target="_blank">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
