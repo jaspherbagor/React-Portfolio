@@ -152,18 +152,33 @@ const Home = () => {
             <div className="card mb-4">
               <img src="../images/responsive-cert.png" alt="" className="card-img-top img-fluid" />
               <div className="card-body">
-              <h5 className="text-center">Responsive Web Design Certification</h5>
+                <h5 className="text-center">Responsive Web Design Certification</h5>
               </div>
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
-
+              <div className="card mb-4">
+              <img src="../images/js-cert.png" alt="" className="card-img-top img-fluid" />
+              <div className="card-body">
+                <h5 className="text-center">Legacy JavaScript Algorithm and Data Structures Certification</h5>
+              </div>
+            </div>
           </div>
           <div className="col-md-4 col-sm-6">
-
+              <div className="card mb-4">
+              <img src="../images/front-end-cert.png" alt="" className="card-img-top img-fluid" />
+              <div className="card-body">
+                <h5 className="text-center">Front-end Development Libraries Certification</h5>
+              </div>
+            </div>
           </div>
           <div className="col-md-4 col-sm-6">
-
+              <div className="card mb-4">
+              <img src="../images/kodego-cert.png" alt="" className="card-img-top img-fluid" />
+              <div className="card-body">
+                <h5 className="text-center">KodeGo Full-Stack Web Development Certification</h5>
+              </div>
+            </div>
           </div>
         </div>
       </section>
