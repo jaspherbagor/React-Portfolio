@@ -147,6 +147,20 @@ const Home = () => {
         <h2 className="text-center fw-bolder text-white">
           MY <span>CERTIFICATES</span>
         </h2>
+        <div className="row mt-5">
+          <div className="col-md-4 col-sm-6">
+
+          </div>
+          <div className="col-md-4 col-sm-6">
+
+          </div>
+          <div className="col-md-4 col-sm-6">
+
+          </div>
+          <div className="col-md-4 col-sm-6">
+            
+          </div>
+        </div>
       </section>
       <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="projects">
         <h2 className="text-center fw-bolder text-black">
