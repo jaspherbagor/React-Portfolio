@@ -143,8 +143,13 @@ const Home = () => {
           </h5>
         </div>
       </section>
-      <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-        <h2 className="text-center fw-bolder text-black" id="projects">
+      <section className="certificate-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+        <h2 className="text-center fw-bolder text-white">
+          MY <span>CERTIFICATES</span>
+        </h2>
+      </section>
+      <section className="project-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="projects">
+        <h2 className="text-center fw-bolder text-black">
           MY <span>PROJECTS</span>
         </h2>
         <div className="row mt-5 px-2">
