@@ -29,16 +29,11 @@ html, body {
 }
 
 .content {
-    /* background-image: url('../../../public/images/projects-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
     background: var(--hero-section-bg)
 
 }
 
 .hero-section {
-    /* background:var(--hero-section-bg); */
     min-height: 100vh
 }
 
@@ -56,12 +51,6 @@ html, body {
     color:var(--text-color-light)
 }
 
-/* .about-section {
-    background: url('../../../public/images/about-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center
-} */
 
 
 .about-img {
@@ -98,17 +87,6 @@ h3 span, h2 span, h1 span {
 .card:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-/* .project-section {
-    background: url('../../../public/images/projects-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center
-} */
-
-/* .contact-section {
-    background: var(--navbar-bg) 
-} */
 
 .toast-container {
     top:45px
