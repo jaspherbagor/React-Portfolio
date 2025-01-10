@@ -289,7 +289,7 @@ const Home = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
             <div className="card mb-4">
               <img
-                src="../images/pclu-qms.png"
+                src="../images/lsh.png"
                 className="card-img-top img-fluid"
                 alt="..."
               />
