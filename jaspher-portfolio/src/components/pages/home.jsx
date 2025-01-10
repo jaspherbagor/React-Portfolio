@@ -285,6 +285,30 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <div className="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center justify-content-center">
+            <div className="card mb-4">
+              <img
+                src="../images/pclu-qms.png"
+                className="card-img-top img-fluid"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">PCLU QMS</h5>
+                <p className="card-text">
+                  PCLU QMS is a queue management system for Polytechnic College of La Union(PCLU) students. I have added crucial functionalities such as password reset using email authenthication, display of advertisements and database backup. Additionally, I have improved the overall user interface of the web system.
+                </p>
+                <div className="d-flex align-items-center justify-content-center">
+                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" className="btn btn-success live-preview-btn me-4">
+                    <i className="bi bi-zoom-in fs-5"></i> Live Preview
+                  </a>
+                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" className="btn btn-secondary github-code-btn">
+                    <i className="bi bi-github fs-5"></i> Github Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-2 py-5" id="contactMe">
