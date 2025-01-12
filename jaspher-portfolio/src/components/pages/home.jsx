@@ -291,7 +291,7 @@ const Home = () => {
               <img
                 src="../images/lsh.png"
                 className="card-img-top img-fluid"
-                alt="..."
+                alt=""
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Labason Safe Haven</h5>
