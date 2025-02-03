@@ -441,10 +441,11 @@ const Home = () => {
                   </label>
                   <textarea
                     name="Message"
+                    type="text"
                     id="message"
                     value={users.Message}
                     onChange={data}
-                    className="w-100 form-control text-white"
+                    className="w-100 form-control"
                   ></textarea>
                 </div>
                 <button
