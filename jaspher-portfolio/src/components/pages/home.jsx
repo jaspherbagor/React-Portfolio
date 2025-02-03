@@ -392,7 +392,7 @@ const Home = () => {
               </div>
               <div className="d-flex align-items-center justify-content-start mt-5">
                 <a
-                  href="https://www.canva.com/design/DAGIkUpn_L0/y3LVk5VRew78T8CKrYbnOw/view?utm_content=DAGIkUpn_L0&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                  href="https://www.canva.com/design/DAGd8F7at7Q/SZJeaHGPp7LJ3-CKwTU0Zw/view?utm_content=DAGd8F7at7Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fa2a701f"
                   target="_blank"
                   className="text-decoration-none"
                 >
