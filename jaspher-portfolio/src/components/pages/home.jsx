@@ -193,7 +193,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">KodeGo Full-Stack Web Development Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="images/jaspher-portfolio/public/images/Jaspher_Bagor_Certificate.pdf" target="_blank">
+                  <a href="https://github.com/jaspherbagor/React-Portfolio/blob/main/jaspher-portfolio/public/images/Jaspher_Bagor_Certificate.pdf" target="_blank">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
