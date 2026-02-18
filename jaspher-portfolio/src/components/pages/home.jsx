@@ -105,7 +105,7 @@ const Home = () => {
             <div className="col-md-6 d-flex justify-content-center align-items-center pt-5">
               <img
                 src="images/hero_image.svg"
-                alt="hero-image"
+                alt="hero-images"
                 className="img-fluid"
               />
             </div>
@@ -122,7 +122,7 @@ const Home = () => {
         <div className="container d-flex justify-content-center align-items-center">
           <img
             src="../images/about-img.jpg"
-            alt="profile-image"
+            alt="profile-images"
             className="img-fluid about-img"
           />
         </div>
@@ -154,7 +154,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Responsive Web Design Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/responsive-web-design" target="_blank">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/responsive-web-design" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -167,7 +167,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Legacy JavaScript Algorithm and Data Structures Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/javascript-algorithms-and-data-structures" target="_blank">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/javascript-algorithms-and-data-structures" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">Front-end Development Libraries Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/front-end-development-libraries" target="_blank">
+                  <a href="https://www.freecodecamp.org/certification/jaspherbagor/front-end-development-libraries" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -193,7 +193,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="text-center">KodeGo Full-Stack Web Development Certification</h5>
                 <div className="text-center mt-3">
-                  <a href="https://github.com/jaspherbagor/React-Portfolio/blob/main/jaspher-portfolio/public/images/Jaspher_Bagor_Certificate.pdf" target="_blank">
+                  <a href="https://github.com/jaspherbagor/React-Portfolio/blob/main/jaspher-portfolio/public/images/Jaspher_Bagor_Certificate.pdf" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary view-cert-btn py-2"><i className="bi bi-zoom-in fs-5"></i> View Certificate</button>
                   </a>
                 </div>
@@ -223,10 +223,10 @@ const Home = () => {
                   such as metal fabrication, welding, machining and more.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://jaspherbagor.github.io/Kinabuhing-Turnero/" target="_blank" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://jaspherbagor.github.io/Kinabuhing-Turnero/" target="_blank" rel="noreferrer" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/Kinabuhing-Turnero" target="_blank" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/Kinabuhing-Turnero" target="_blank" rel="noreferrer" className="btn btn-secondary github-code-btn">
                     <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
@@ -249,10 +249,10 @@ const Home = () => {
                   electrical tools, materials, and equipments.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://spark-source-central.vercel.app/" target="_blank" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://spark-source-central.vercel.app/" target="_blank" rel="noreferrer" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/SparkSourceCentral" target="_blank" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/SparkSourceCentral" target="_blank" rel="noreferrer" className="btn btn-secondary github-code-btn">
                     <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
@@ -275,10 +275,10 @@ const Home = () => {
                   job, subscribe to a plan and manage applicants.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://splenr.tech/" target="_blank" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://splenr.tech/" target="_blank" rel="noreferrer" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/SPLENR" target="_blank" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/SPLENR" target="_blank" rel="noreferrer" className="btn btn-secondary github-code-btn">
                     <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
@@ -299,10 +299,10 @@ const Home = () => {
                  Labason Safe Haven is a booking platform that enables the user to book hotels, boarding houses and apartments. Establishments can create an account, post room vacancies and manage  customer bookings. Super admin can approve user accounts as well as the establishments registered. 
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://github.com/jaspherbagor/LSH-V6" target="_blank" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://github.com/jaspherbagor/LSH-V6" target="_blank" rel="noreferrer" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/LSH-V6" target="_blank" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/LSH-V6" target="_blank" rel="noreferrer" className="btn btn-secondary github-code-btn">
                     <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
@@ -323,10 +323,10 @@ const Home = () => {
                   PCLU QMS is a queue management system for Polytechnic College of La Union(PCLU) students. I have added crucial functionalities such as password reset using email authenthication, display of advertisements and database backup. Additionally, I have improved the overall user interface of the web system.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" className="btn btn-success live-preview-btn me-4">
+                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" rel="noreferrer" className="btn btn-success live-preview-btn me-4">
                     <i className="bi bi-zoom-in fs-5"></i> Live Preview
                   </a>
-                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" className="btn btn-secondary github-code-btn">
+                  <a href="https://github.com/jaspherbagor/Queue_Management_System" target="_blank" rel="noreferrer" className="btn btn-secondary github-code-btn">
                     <i className="bi bi-github fs-5"></i> Github Code
                   </a>
                 </div>
@@ -345,7 +345,7 @@ const Home = () => {
               <h5 className="text-start">
                 <a
                   href="mailto:jaspherbagor0357@gmail.com"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white contact-email"
                 >
                   <i className="bi bi-envelope fs-5"></i> jaspherbagor0357@gmail.com
@@ -354,7 +354,7 @@ const Home = () => {
               <h5 className="text-start">
                 <a
                   href="tel:09169675327"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white contact-phone"
                 >
                   <i className="bi bi-telephone fs-5"></i> 0916-967-5327
@@ -362,29 +362,29 @@ const Home = () => {
               </h5>
               <div className="d-flex align-items-center justify-content-start mt-5">
                 <a
-                  href="https://www.facebook.com/jas.bagor/"
-                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=61584698101667"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white social-icon me-4"
                 >
                   <i className="bi bi-facebook fs-2"></i>
                 </a>
                 <a
                   href="https://github.com/jaspherbagor"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white social-icon me-4"
                 >
                   <i className="bi bi-github fs-2"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jaspher-bagor-56274326a/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white social-icon me-4"
                 >
                   <i className="bi bi-linkedin fs-2"></i>
                 </a>
                 <a
                   href="https://www.tiktok.com/@jasbgr"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none text-white social-icon"
                 >
                   <i className="bi bi-tiktok fs-2"></i>
@@ -393,7 +393,7 @@ const Home = () => {
               <div className="d-flex align-items-center justify-content-start mt-5">
                 <a
                   href="https://www.canva.com/design/DAGd8F7at7Q/SZJeaHGPp7LJ3-CKwTU0Zw/view?utm_content=DAGd8F7at7Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86fa2a701f"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-decoration-none"
                 >
                   <button
